@@ -1,0 +1,303 @@
+#██╗░██████╗██╗░░░░░░█████╗░███╗░░██╗██████╗░  ██████╗░██████╗░██╗██████╗░░██████╗░███████╗
+#██║██╔════╝██║░░░░░██╔══██╗████╗░██║██╔══██╗  ██╔══██╗██╔══██╗██║██╔══██╗██╔════╝░██╔════╝
+#██║╚█████╗░██║░░░░░███████║██╔██╗██║██║░░██║  ██████╦╝██████╔╝██║██║░░██║██║░░██╗░█████╗░░
+#██║░╚═══██╗██║░░░░░██╔══██║██║╚████║██║░░██║  ██╔══██╗██╔══██╗██║██║░░██║██║░░╚██╗██╔══╝░░
+#██║██████╔╝███████╗██║░░██║██║░╚███║██████╔╝  ██████╦╝██║░░██║██║██████╔╝╚██████╔╝███████╗
+#╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░  ╚═════╝░╚═╝░░╚═╝╚═╝╚═════╝░░╚═════╝░╚══════╝
+#------------------------------------------------------------------------#
+#                             Author: MrErrors                           #
+#                              Version: 1.0.1                            #
+#------------------------------------------------------------------------#
+Title: ":offset_-8::island_bridge:"
+Rows: 6
+Interact:
+  Previous:
+      material: Itemadder
+      displayname: ""
+      slot: 48
+      nbt: ''
+      itemadder:
+          displayname: "&bPrevious Page &7(&b{page}&7)"
+          model: "_iainternal:icon_left_blue"
+      lore:
+      - "<#6A6A6A>Information"
+      - "  <#6A6A6A>| &fClick here for the previous page"
+  Next:
+      material: Itemadder
+      displayname: 
+      slot: 50
+      nbt: 
+      itemadder:
+          displayname: "&bNext Page &7(&b{page}&7)"
+          model: "_iainternal:icon_right_blue"
+      lore:
+      - "<#6A6A6A>Information"
+      - "  <#6A6A6A>| &fClick here for the next page"
+  Player:
+      material: Skull
+      displayname: "&b{player}"
+      slot: 45
+      nbt: 
+      lore:
+      - "<#6A6A6A>Information"
+      - "  <#27D2F0>| <#EBEBEB>Unlocked: <#27D2F0>{unlocked}"
+  Search:
+      material: Itemadder
+      displayname: ""
+      slot: 49
+      nbt: ''
+      itemadder:
+          displayname: "&bSeach for an bridge"
+          model: "_iainternal:icon_search"
+      lore:
+      - "&bCurrently Searching: &f{search}"
+      - ""
+      - "<#6A6A6A>Information"
+      - "  <#6A6A6A>| &fIf you would like to search"
+      - "  <#6A6A6A>| &ffor a island by name, you must"
+      - "  <#6A6A6A>| &ffollow the usaged down below."
+      - ""
+      - "&bUsage:"
+      - "  &b| &fCommand: /bridge search <Search>"
+      - "  &b| &fShift+Right Click to clear search"
+  Date:
+      material: CLOCK
+      displayname: "&bDate Filter"
+      slot: 53
+      nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+      itemadder:
+          displayname: ""
+          model: ""
+      lore:
+      - "&bCurrent Filter: &f{filter}"
+      - ""
+      - "<#6A6A6A>Information:"
+      - "  <#6A6A6A>| &fThis filter will allow to you to see"
+      - "  <#6A6A6A>| &feach claimed bridge in order of"
+      - "  <#6A6A6A>| &fnewest to oldest or vice versa."
+      - ""
+      - "&bUsage:"
+      - "  &b| &fRight Click for newest to oldest filter"
+      - "  &b| &fLeft Click for oldest to newest filter"
+      - "  &b| &fShift+Right Click to clear filter"
+  Rarity:
+      material: END_CRYSTAL
+      displayname: "&bRarity Filter"
+      slot: 52
+      nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+      itemadder:
+          displayname: ""
+          model: ""
+      lore:
+      - "&bCurrent Filter: &f{filter}"
+      - ""
+      - "<#6A6A6A>Information"
+      - "  <#6A6A6A>| &fThis filter will allow to you to see"
+      - "  <#6A6A6A>| &feach rarity in order of uncommon"
+      - "  <#6A6A6A>| &fto limted or vice versa."
+      - ""
+      - "&bUsage:"
+      - "  &b| &fRight Click for uncommon-limited filter"
+      - "  &b| &fLeft Click for limited-uncommon filter"
+      - "  &b| &fShift+Right Click  to clear filter"
+  Locked:
+      material: PLAYER_HEAD
+      displayname: "&cUnknown Bridge?!?"
+      nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIzZWFlZmJkNTgxMTU5Mzg0Mjc0Y2RiYmQ1NzZjZWQ4MmViNzI0MjNmMmVhODg3MTI0ZjllZDMzYTY4NzJjIn19fQ==
+      itemadder:
+          displayname: ""
+          model: ""
+      lore:
+      - "<#6A6A6A>Information"
+      - "  <#6A6A6A>| &fYou must claim this to"
+      - "  <#6A6A6A>| &funlock this bridge."
+      - ""
+      - "<#6A6A6A>Where to find them?"
+      - "  <#6A6A6A>| &fBridges can be found at"
+      - "  <#6A6A6A>| &fthe lucky fishing pod at spawn,"
+      - "  <#6A6A6A>| &faction house, crates and"
+      - "  <#6A6A6A>| &fthey can be purchased at the store."
+  Information:
+      material: BOOK
+      displayname: "&bInformation"
+      slot: 46
+      nbt: ''
+      itemadder:
+          displayname: ""
+          model: ""
+      lore:
+      - "<#6A6A6A>Information"
+      - "  <#6A6A6A>| &fClick here for the previous page"
+
+Rarity-Lore:
+    UNCOMMON:
+        color: <#7b9483>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+
+    COMMON:
+        color: <#66c944>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+
+    RARE:
+        color: <#279dcc>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+    EPIC:
+        color: <#9932d1>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+    LEGENDARY:
+        color: <#cc9b27>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+
+    LIMITED:
+        color: <#e62e49>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+        
+    COMING SOON:
+        color: <#e6d32e>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - "{c}Date Received: &f{date}"
+        - ""
+        - "&7&o• Click Here To Change Bridge Theme"
+Item-Lore:
+    UNCOMMON:
+        color: <#7b9483>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - ""
+        - "&7&o• Right Click to claim bridge theme"
+
+    COMMON:
+        color: <#66c944>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - ""
+        - "&7&o• Right Click to claim bridge theme"
+
+    RARE:
+        color: <#279dcc>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - ""
+        - "&7&o• Right Click to claim bridge theme"
+    EPIC:
+        color: <#9932d1>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - ""
+        - "&7&o• Right Click to claim bridge theme"
+    LEGENDARY:
+        color: <#cc9b27>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - ""
+        - "&7&o• Right Click to claim bridge theme"
+
+    LIMITED:
+        color: <#e62e49>
+        displayname: "&f◇{c}◆ {name} ◆&f◇"
+        lore:
+        - ""
+        - "{c}Description:"
+        - "{description}"
+        - ""
+        - "{c}Rarity: &f{rarity}"
+        - "{exlusive}"
+        - ""
+        - "&7&o• Right Click to claim bridge theme"
