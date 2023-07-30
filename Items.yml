@@ -1,0 +1,326 @@
+#██╗░██████╗██╗░░░░░░█████╗░███╗░░██╗██████╗░░██████╗#
+#██║██╔════╝██║░░░░░██╔══██╗████╗░██║██╔══██╗██╔════╝#
+#██║╚█████╗░██║░░░░░███████║██╔██╗██║██║░░██║╚█████╗░#
+#██║░╚═══██╗██║░░░░░██╔══██║██║╚████║██║░░██║░╚═══██╗#
+#██║██████╔╝███████╗██║░░██║██║░╚███║██████╔╝██████╔╝#
+#╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚═════╝░#
+Items:
+    1:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.normal
+        name: "Normal Bridge"
+        schematic: "Default.normal"
+        rarity: UNCOMMON
+        cmd: 8101
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    2:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM2OGJkM2Q2NjYwMzYyMTJlZTFkMWIxYzM5ZWQ4NWI4ZmY3ZDhiNTdhNjVkOGEyYjkxNDg5YTc1MGMyYmUifX19
+        permission: islandbridge.japan
+        name: "Japan Bridge"
+        schematic: "Japan.schem"
+        rarity: UNCOMMON
+        cmd: 8102
+        description:
+        - "  {c}▍ &7Kon'nichiwa"
+    3:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY3NGMyZTRjMGIyMjJlNDJlOGNkZGYzYmE4ZjZiNTQ2YzUxMDNhZGEyYzljMTU0NjFhYmMzZmEzZjQyNTA5In19fQ==
+        permission: islandbridge.mycelium
+        name: "Winter Bridge"
+        schematic: "Winter.schem"
+        rarity: UNCOMMON
+        cmd: 8103
+        description:
+        - "  {c}▍ &7Brrr, It's Cold Here.."
+    4:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNjMmYxYzVkMmM4ZjBlMzM3MzBjMTRkY2ExYzFkMWUxYWJkODU5NmIwODM5ZDY3MzhkMThmNDY0MzJiNmZhNiJ9fX0=
+        permission: islandbridge.beach
+        name: "Beach Bridge"
+        schematic: "Beach.schem"
+        rarity: UNCOMMON
+        cmd: 8104
+        description:
+        - "  {c}▍ &7Grab A Bucket & A Shovel"
+    5:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFiNzI2M2UzZjBhMzE4MjE4NDM4OWVjYTA2N2Q2Yjc5NTAxMTAyMjNjM2I4YzBjZTA1Yjk1YzE0NzkyOTY2NiJ9fX0=
+        permission: islandbridge.muchroom
+        name: "Mushroom Bridge"
+        schematic: "Mushroom.schem"
+        rarity: RARE
+        cmd: 8105
+        description:
+        - "  {c}▍ &7Mushrooommms!"
+    6:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE2NTI0YjlkZTlhOWUwOTkyMWEzZDQyN2I5NGFiMDY0MmJmMTNkZGQ5OGJiNTMwODM0MDRlMGQ0NWJiMGY3YyJ9fX0=
+        permission: islandbridge.SpawnTower
+        name: "Spawn Bridge"
+        schematic: "SpawnTower.schem"
+        rarity: EPIC
+        cmd: 8106
+        description:
+        - "  {c}▍ &7A Slice From Spawn"
+    7:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVkZjU1NTkyNjQzMGQ1ZDc1YWRlZDIxZGQ5NjE5Yjc2YzViN2NhMmM3ZjU0MDE0NDA1MjNkNTNhOGJjZmFhYiJ9fX0=
+        permission: islandbridge.End
+        name: "End Bridge"
+        schematic: "End.schem"
+        rarity: COMMON
+        cmd: 8107
+        description:
+        - "  {c}▍ &7The End Is Near"
+    8:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdlMGFhOTQzM2RiYTliNzU5MzJhMTFkYzk0ZDQwNmJkZTE5ZTg2MzUxNDIxNDkyYjNlZDM3OGM4ZTFhN2NjIn19fQ==
+        permission: islandbridge.Lucky
+        name: "Lucky Bridge"
+        schematic: ""
+        rarity: COMING SOON
+        cmd: 8108
+        description:
+        - "  {c}▍ &7Feeling Lucky?"
+    9:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkYzNjODQ0OTFjNGZmMTAzZGU2ZWEwMTg4MGUyZDgzNDMyY2Q0ODc4Yjg0ZDZiNDMyNTNjYzUxZmQ5NzhlNyJ9fX0=
+        permission: islandbridge.Christmas
+        name: "Christmas Bridge"
+        schematic: ""
+        rarity: COMING SOON
+        cmd: 8109
+        description:
+        - "  {c}▍ &7Presents For Everyone!"
+    10:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAzMjdmYjM0MzE5Zjg5YWM1YWI0OGI0ZDc5MjUxZjEzZjA2N2ViZWE3ZGE1Zjg4Yjc1ZjQ3OWE3Mzg5OTI0ZSJ9fX0=
+        permission: islandbridge.MagicalHouse
+        name: "Magical House Bridge"
+        schematic: "MagicalHouse.schem"
+        rarity: EPIC
+        cmd: 8110
+        description:
+        - "  {c}▍ &7MrErrors Lives Here!"
+    11:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzliOTg4MmIzNTIzMTJmYWRiYTlkODM5YTM3ZjdiZjVhMWE4OTNmZDYwYjZlZWM4YWFmMWI0MjQ1MDMyZTY3NiJ9fX0=
+        permission: islandbridge.RichRuin
+        name: "Rich Ruin Bridge"
+        schematic: "RichRuin.schem"
+        rarity: EPIC
+        cmd: 8111
+        description:
+        - "  {c}▍ &7I Wish I Was Rich..."
+        - "  {c}▍ &8Created By _GhostDuck_"
+    12:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAzYTUyNTE3YTgxNDMwMzViZTVjOGI4MWZkMjAxOTI4ZDY0MDc2Zjk2YjVkMjc2MDRjY2NjMzcwODVmMTdlNyJ9fX0=
+        permission: islandbridge.Coal
+        name: "Coal Bridge"
+        schematic: "Coal.schem"
+        rarity: LEGENDARY
+        cmd: 8112
+        description:
+        - "  {c}▍ &7Bridge For Buying Coal Rank"
+        exlusive:
+        - "  {c}▍ &7Coal Rank Exlusive"
+    13:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFhNzg1OTE2ZDJkMTdjYTBlYTJhZDIzZDgwMjQ3YzdjNTAyMTQ0MzkwM2JiYWI3YjI0Yjc5MzRiNmEzNjFhYiJ9fX0=
+        permission: islandbridge.Iron
+        name: "Iron Bridge"
+        schematic: "Iron.schem"
+        rarity: LEGENDARY
+        cmd: 8113
+        description:
+        - "  {c}▍ &7Bridge For Buying Iron Rank"
+        exlusive:
+        - "  {c}▍ &7Iron Rank Exlusive"
+    14:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJjM2Q3MzE3NzA3OTdlMTdhYmNiMTRhZTBmYzlkOWUwNjhkZWI3NDlkZGRiOTI1MDFjMGY2MTQ1NzY5ZTI1YyJ9fX0=
+        permission: islandbridge.Gold
+        name: "Gold Bridge"
+        schematic: "Gold.schem"
+        rarity: LEGENDARY
+        cmd: 8114
+        description:
+        - "  {c}▍ &7Bridge For Buying Gold Rank"
+        exlusive:
+        - "  {c}▍ &7Gold Rank Exlusive"
+    15:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwZTZkOWUyNDI3MzU0ODE5MThjNWZkMTQ0OThiZDc2MGJiOWY0ZmY2NDMwYWQ0Njk2YjM4ZThhODgzZGE5NyJ9fX0=
+        permission: islandbridge.Emerald
+        name: "Emerald Bridge"
+        schematic: "Emerald.schem"
+        rarity: LEGENDARY
+        cmd: 8115
+        description:
+        - "  {c}▍ &7Bridge For Buying Emerald Rank"
+        exlusive:
+        - "  {c}▍ &7Emerald Rank Exlusive"
+    16:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJmYzdmYTRlNzRiNmU0MDFhZTA2NDE0OGFlNWU3NjhiODkzZjFkOTI5N2Y4NzQ3NTEwMWY3MjI1YTJhNWE2YSJ9fX0=
+        permission: islandbridge.Diamond
+        name: "Diamond Bridge"
+        schematic: "Diamond.schem"
+        rarity: LEGENDARY
+        cmd: 8116
+        description:
+        - "  {c}▍ &7Bridge For Buying Diamond Rank"
+        exlusive:
+        - "  {c}▍ &7Diamond Rank Exlusive"
+    17:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDljMTgzMmU0ZWY1YzRhZDljNTE5ZDE5NGIxOTg1MDMwZDI1NzkxNDMzNGFhZjI3NDVjOWRmZDYxMWQ2ZDYxZCJ9fX0=
+        permission: islandbridge.Castle
+        name: "Castle Bridge"
+        schematic: "Castle.schem"
+        rarity: COMMON
+        cmd: 8117
+        description:
+        - "  {c}▍ &7Your Very Own Kingdom"
+    18:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkMjQwMDAwMmFkOWZiYmJkMDA2Njk0MWViNWIxYTM4NGFiOWIwZTQ4YTE3OGVlOTZlNGQxMjlhNTIwODY1NCJ9fX0=
+        permission: islandbridge.sethtest
+        name: "Seth Test"
+        schematic: "sethtest.schem"
+        rarity: LIMITED
+        cmd: 8118
+        description:
+        - "  {c}▍ &7Fuck You Seth Boi"
+    19:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg0NGU1ZjczY2M0NDY5MDgzMDY1OThhN2NlYWJjOGFjYTU2ZmM0OWMzMzFiZTI3OTcyMzBiY2QwNzA3OGM2In19fQ==
+        permission: islandbridge.kawaii
+        name: "Kawaii Bridge"
+        schematic: "Japan2.schem"
+        rarity: EPIC
+        cmd: 8119
+        description:
+        - "  {c}▍ &7Kawaii AF"
+    20:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ0NTQ3OTg1Yzg1NDkxMDdmMjE0ZTJkMWEzYjRlZTcxODczMmM3MzI2NDgxYjcxZTdkOTAxNGYyN2I2NGJkNiJ9fX0=
+        permission: islandbridge.alien
+        name: "Alien Bridge"
+        schematic: "alien.schem"
+        rarity: EPIC
+        cmd: 8120
+        description:
+        - "  {c}▍ &7Really out of this world...sorry"
+    21:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzkzZTJjNzAxMTcyNDhmZjgxZjJjYTY3YzYzYWZjNTg1YzViZWM0OWE0NjM0YmYxYmZlZjZiZjU2ZWJkIn19fQ==
+        permission: islandbridge.tardis
+        name: "Tardis Bridge"
+        schematic: "Tardis.schem"
+        rarity: EPIC
+        cmd: 8121
+        description:
+        - "  {c}▍ &7WHooWeeOoOOooo, dun dun dun...dun..dun dun..."
+    22:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test22
+        name: "test 22 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8122
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    23:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test23
+        name: "test 23 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8123
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    24:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test24
+        name: "test 24 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8124
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    25:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test25
+        name: "test 25 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8125
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    26:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test26
+        name: "test 26 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8126
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    27:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test27
+        name: "test 27 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8127
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
+    28:
+      gui:
+        material: PLAYER_HEAD
+        nbt: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+        permission: islandbridge.test28
+        name: "test 28 Bridge"
+        schematic: "Default.test"
+        rarity: UNCOMMON
+        cmd: 8128
+        description:
+        - "  {c}▍ &7The Standard Bridge Theme"
